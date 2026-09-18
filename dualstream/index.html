@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DualStream: Web & USB Cam Live Streaming</title>
+    <title>DualStream: Web & USB Cam</title>
     <style>
         :root {
             --primary: #1565C0;
@@ -108,6 +108,29 @@
             padding: 0 20px;
         }
 
+        .purpose-section {
+            background-color: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            padding: 32px;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+
+        .purpose-section h2 {
+            font-size: 22px;
+            color: #FFFFFF;
+            margin-bottom: 12px;
+        }
+
+        .purpose-section p {
+            color: var(--text-muted);
+            font-size: 16px;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
         .section-title {
             font-size: 24px;
             color: #FFFFFF;
@@ -117,7 +140,7 @@
 
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1f));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 24px;
             margin-bottom: 48px;
         }
@@ -200,6 +223,14 @@
 </header>
 
 <main>
+    <!-- Explicit Purpose Section to satisfy OAuth reviewer requirements -->
+    <div class="purpose-section">
+        <h2>What is DualStream: Web & USB Cam?</h2>
+        <p>
+            <strong>DualStream: Web & USB Cam</strong> is a professional mobile and tablet broadcasting application designed for content creators, event organizers, and sports streamers. The app's primary purpose is to allow users to capture high-definition video feeds from internal device cameras, external USB UVC webcams, or HDMI capture cards, overlay interactive web graphics (such as live scoreboards), and securely stream the output directly to platforms like YouTube Live and Facebook Live using authorized API integrations.
+        </p>
+    </div>
+
     <h2 class="section-title">Key Features</h2>
 
     <div class="grid">
@@ -241,7 +272,7 @@
     </div>
 
     <div class="links-section">
-        <h3>Legal & Legal Disclosures</h3>
+        <h3>Legal & Disclosures</h3>
         <p style="color: var(--text-muted); margin-top: 8px;">Learn how DualStream handles user data, YouTube API Services, and broadcast rights.</p>
         <div class="links-list">
             <a href="privacy_policy.html">🔒 Privacy Policy</a>
@@ -252,7 +283,7 @@
 </main>
 
 <footer>
-    &copy; 2025 DualStream. All rights reserved. | <a href="mailto:support@schroed.net" style="color: var(--text-muted);">support@schroed.net</a>
+    &copy; 2025 DualStream: Web & USB Cam. All rights reserved. | <a href="mailto:support@schroed.net" style="color: var(--text-muted);">support@schroed.net</a>
 </footer>
 
 </body>
